@@ -1,0 +1,84 @@
+/*@font-face {
+    font-family: 'cuyabra';
+    src: url('../fonts/cuyabra.otf');
+}
+@font-face {
+    font-family: 'fixed';
+    src: url('../fonts/saxmono.ttf');
+}*/
+/*@font-face {
+    font-family: 'fixed2';
+    src: url('../fonts/unispacerg.ttf');
+}*/
+
+.mac{
+	font-family: 'fixed', Helvetica, Arial, sans-serif;
+}
+
+.caducado{
+	color: #c3c3a2;
+	font-style: oblique;
+}
+
+.consola {
+	font-family: 'fixed2';
+	min-height: 20px;
+	font-size: 12px;
+	padding: 19px;
+	margin-bottom: 20px;
+	background-color: #000000;
+	color: #00e600;
+	border: 1px solid #e3e3e3;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+	height:400px;
+	overflow:auto;
+}
+
+.lateral {
+  display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 200px;
+  margin: 26px 17px 17px;
+  padding: 22px;
+  overflow: hidden;
+  border: none;
+  
+  
+  background: #dbdbdb;
+  -webkit-box-shadow: 3px 3px 4px 0 rgba(0,0,0,0.4) , 1px 1px 1px 0 rgba(0,0,0,0.3) ;
+  
+  
+}
+
+
+/* tablas DIV */
+.boxer {
+   display: table;
+   border-collapse: collapse;
+}
+ 
+.boxer .box-row {
+   display: table-row;
+}
+ 
+.boxer .box {
+   display: table-cell;
+   text-align: left;
+   vertical-align: top;
+   padding-left: 2px;
+   /*border: 1px solid black;*/
+}
+
+header {
+  width: auto;
+  height: 170px;
+  background-color: #0b0f0f;
+
+}
+body {
+  background-color: #fbfcfc;
+}
